@@ -15,17 +15,51 @@
 
       <p><strong>Proin</strong> posuere nulla metus, quis iaculis purus porta convallis. Aliquam nibh erat, sodales in lobortis id, ultrices condimentum turpis. Quisque varius mi magna, vel semper erat tincidunt vitae. Mauris mauris odio, facilisis eget nulla sit amet, vulputate suscipit arcu. Donec quis euismod erat. Ut pretium dui at mauris suscipit, congue bibendum nunc dictum. Quisque auctor urna diam, at rhoncus velit lobortis ut. Nam id purus eget erat lobortis sollicitudin. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
     <h1>Table</h1>
+        <table>
+          <thead>
+            <tr>
+              <th>Scores by Quarter</th>
+            </tr>
+            </thead>
+            <thead>
+              <tr>
+                <th><strong><br>First Half Second Half</strong></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Q1</strong></td>
+                <td><strong>Q2</strong></td>
+                <td><strong>Q3</strong></td>
+                <td><strong>Q4</strong></td>
+
+              </tr>
+              <tr>
+                <td><strong>Q4</strong></td>
+                <td><strong>Final</strong></td>
+              </tr>
+            </tbody>
+
+        </table>
+
+
+
     <h1>List</h1>
     <ul>
-
       <li><img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/den.png&h=200&w=200"><br><a href="https://www.espn.com/nfl/team/_/name/den/denver-broncos">Denver Broncos</a><br></li>
+      <ul>
+          <li>Coach: Nathaniel Hacket</li>
+          <li>QB</li>
           <ol>
             <li>Russell Wilson</li>
             <li>Josh Johnson</li>
             <li>Brett Rypien</li>
           </ol>
-
+    </ul>
       <li><img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/lac.png&h=200&w=200"><br><a href="https://www.espn.com/nfl/team/_/name/lac/los-angeles-chargers">San Diego Super Chargers</a><br></li>
+      <ul>
+        <li>Coach: Brandon Staley</li>
+        <li>QB</li>
         <ol>
           <li>Justin Herbert</li>
           <li>Chase Daniel</li>
@@ -38,9 +72,33 @@
       <input type="text"/>
       Last:
       <input type="text"/></p>
-      <p>Favorite Sport:</p>
-      <p>I have: this sport.</p>
-      <p>For this sport I prefer the:</p>
+      <p>Favorite Sport:
+        <select name="Favorite Sport" id="Favorite Sport">
+        <option value="Soccer">Soccer</option>
+        <option value="Football">Football</option>
+        <option value="Basketball">Basketball</option>
+        <option value="Baseball">Baseball</option>
+      </select>
+      </p>
+      <p>I have:
+        <input type="checkbox" id="attended" name="participation" value="attended">
+        <label for="attended">Attended</label>
+        <input type="checkbox" id="played" name="participation" value="played">
+        <label for="played">Played</label>
+        <input type="checkbox" id="coached" name="participation" value="coached">
+        <label for="coached">Coached</label>
+        <input type="checkbox" id="betOn" name="participation" value="betOn">
+        <label for="betOn">Bet on</label>
+        <br>
+        this sport.
+      </p>
+      <p>For this sport I prefer the:
+        <input type="radio" id="amateur" name="playingLevel">
+        <label for="amateur">Amateur</label>
+        <input type="radio" id="college" name="playingLevel">
+        <label for="college">College</label>
+        <input type="radio" id="professional" name="playingLevel">
+        <label for="professional">Professional</label></p>
       <input type="submit" value="Submit Query">
     </form>
 
