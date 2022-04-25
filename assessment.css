@@ -1,0 +1,47 @@
+/* user Story1 */
+h2, h3, h4, h5 {
+  color: red;
+  font-family: sans-serif;
+}
+/* user Story2 */
+thead{
+  font-weight: bold;
+  color: purple
+}
+table{
+  border-left: solid;
+  border-top: solid;
+  border-bottom: solid;
+  border-right: solid;
+}
+tfoot{
+
+}
+/* user Story3 */
+#teamRoster li{
+list-style-type:square
+}
+/* user Story4 */
+.hyperLink:hover {
+  background-color: green;
+  text-decoration: none;
+}
+/* user Story5 */
+blockquote{
+  background-color: black;
+  color: lightblue;
+}
+/* user Story6 */
+ul > li :nth-child(4) {
+   background-image: url(https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg);
+}
+ul > li :nth-child(4) {
+   background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg)!important;
+}
+ul > li > img{
+visibility: hidden;
+}
+/* user Story7 */
+#checkbox-grid{
+  list-style-type:none;
+}
